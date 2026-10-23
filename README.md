@@ -24,6 +24,9 @@ node scripts/build.mjs      # monta o grafo, calcula alcançabilidade -> data/ga
 Cada Digimon é um nó; as arestas são evoluções (anteriores/seguintes), temas, tipos, atributos, campos,
 família de nome e nível. `combine(A, B)` é determinístico e simétrico:
 
+0. **Catalisadores** — Digimon que "bugam" a evolução (`CATALYSTS` em `scripts/build.mjs`):
+   **Culumon** faz qualquer Digimon evoluir para a próxima forma, **Apocalymon** faz regredir uma forma.
+   Seguem as linhas canônicas quando existem, e o catalisador não é consumido na fusão.
 1. **Receita especial** — pares gerados pelo build para quem o grafo sozinho não alcança.
 2. **Canônico** — linhas do anime (Agumon + Agumon = Greymon, War Greymon + Metal Garurumon = Omegamon).
 3. **A + A** — evolui para a forma seguinte mais parecida.
@@ -49,6 +52,6 @@ mecânicas (Jogress, receita especial) e speedrun. O progresso fica no `localSto
 ## Alcançabilidade
 
 O build aplica `combine` em todos os pares descobertos até ninguém novo surgir (fecho a partir dos 8).
-Resultado atual: **1371/1488 alcançáveis só pelas regras do grafo** (92,1%); 89 receitas especiais
+Resultado atual: **1407/1488 alcançáveis só pelas regras do grafo** (94,6%); 69 receitas especiais
 (escolhidas entre pré-evoluções e Digimon parecidos com o alvo) garantem **1488/1488**, com no máximo
 11 gerações de combinação. Detalhes em `data/report.md`.

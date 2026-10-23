@@ -52,6 +52,10 @@ const CANON_LINES = [
   ['Gomamon', 'Ikkakumon', 'Zudomon', 'Vikemon'],
   ['Patamon', 'Angemon', 'Holy Angemon', 'Seraphimon'],
   ['Tailmon', 'Angewomon', 'Holydramon'],
+  // Tamers (a terra do Culumon)
+  ['Guilmon', 'Growmon', 'Megalo Growmon', 'Dukemon'],
+  ['Terriermon', 'Galgomon', 'Rapidmon Perfect', 'Saint Galgomon'],
+  ['Renamon', 'Kyubimon', 'Taomon', 'Sakuyamon'],
 ];
 const CANON_JOGRESS = [['War Greymon', 'Metal Garurumon', 'Omegamon']];
 const byName = (name) => {
@@ -67,8 +71,12 @@ for (const line of CANON_LINES) for (let k = 0; k + 1 < line.length; k++) {
 }
 for (const [a, b, c] of CANON_JOGRESS) canon[pk(byName(a), byName(b))] = [byName(c), 'jogress'];
 
+// Digimon que "bugam" a evolução de quem for combinado com eles
+const CATALYSTS = { Culumon: 'up', Apocalymon: 'down' };
+const catalysts = Object.fromEntries(Object.entries(CATALYSTS).map(([name, mode]) => [byName(name), mode]));
+
 const base = BASE_NAMES.map(byName);
-const game = { attrs: attrs.list, types: types.list, fields: fields.list, d, base, canon, overrides: {} };
+const game = { attrs: attrs.list, types: types.list, fields: fields.list, d, base, canon, catalysts, overrides: {} };
 
 // Fecho: aplica combine em todos os pares de descobertos até não surgir nada novo
 function closure(engine) {

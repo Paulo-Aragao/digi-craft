@@ -24,6 +24,8 @@ export const REASONS = {
   evolution: 'Evolução guiada',
   kinship: 'Afinidade de tema',
   special: 'Receita especial',
+  catalystUp: 'Luz de Culumon',
+  catalystDown: 'Regressão',
 };
 
 const pairKey = (a, b) => (a < b ? a * 8192 + b : b * 8192 + a);
@@ -169,8 +171,37 @@ export function createEngine(game) {
     return -1;
   }
 
+  // Catalisadores "bugam" a evolução: combinados com qualquer Digimon, fazem
+  // ele evoluir (up) ou regredir (down) uma forma. { índice: 'up' | 'down' }
+  const catalysts = new Map(Object.entries(game.catalysts || {}).map(([k, v]) => [Number(k), v]));
+
+  function evolve(x) {
+    const cn = canon.get(pairKey(x, x));
+    if (cn && cn[1] === 'same') return cn[0];
+    const up = D[x].x.filter((c) => knownLevel[c] && levelOf[c] > levelOf[x]);
+    const r = best(up, (c) => sim(c, x) + specificity[c], x, x, 21);
+    return r ? r.id : -1;
+  }
+
+  // linha canônica ao contrário: War Greymon -> Metal Greymon
+  const canonPrev = new Map();
+  for (const [k, [c, reason]] of canon) if (reason === 'same') canonPrev.set(c, Math.floor(k / 8192));
+
+  function devolve(x) {
+    if (canonPrev.has(x)) return canonPrev.get(x);
+    const down = D[x].p.filter((c) => knownLevel[c] && levelOf[c] < levelOf[x]);
+    const r = best(down, (c) => sim(c, x), x, x, 22);
+    return r ? r.id : -1;
+  }
+
   // Retorna { id, reason } ou null
   function combine(a, b) {
+    const ca = catalysts.get(a), cb = catalysts.get(b);
+    if ((ca || cb) && !(ca && cb)) {
+      const other = ca ? b : a, mode = ca || cb;
+      const r = mode === 'up' ? evolve(other) : devolve(other);
+      return r >= 0 ? { id: r, reason: mode === 'up' ? 'catalystUp' : 'catalystDown' } : null;
+    }
     const ov = overrides.get(pairKey(a, b));
     if (ov !== undefined) return { id: ov, reason: 'special' };
     const cn = canon.get(pairKey(a, b));
@@ -248,5 +279,5 @@ export function createEngine(game) {
     return { id: r.id, reason: jog.includes(r.id) ? 'jogress' : link.has(r.id) ? 'evolution' : 'kinship' };
   }
 
-  return { combine, pairKey, levelOf, n, sim, setOverride: (a, b, c) => overrides.set(pairKey(a, b), c), deleteOverride: (a, b) => overrides.delete(pairKey(a, b)) };
+  return { combine, pairKey, levelOf, n, sim, catalystOf: (i) => catalysts.get(i), setOverride: (a, b, c) => overrides.set(pairKey(a, b), c), deleteOverride: (a, b) => overrides.delete(pairKey(a, b)) };
 }

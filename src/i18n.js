@@ -37,9 +37,16 @@ const STRINGS = {
     achTitle: 'Conquistas',
     achUnlocked: 'Conquista desbloqueada: <b>{name}</b>',
     jogress: 'JOGRESS!',
+    digivolve: 'DIGIVOLUÇÃO!',
+    devolve: 'REGRESSÃO!',
+    noEvolve: '{name} já está na forma final.',
+    noDevolve: '{name} não pode regredir mais.',
+    powerUp: '✨ Poder especial: combinado com qualquer Digimon, faz ele evoluir para a próxima forma. Não é consumido.',
+    powerDown: '🌑 Poder especial: combinado com qualquer Digimon, faz ele regredir uma forma. Não é consumido.',
     reasons: {
       same: 'Evolução', rebirth: 'Renascimento', jogress: 'Jogress (DNA)',
       evolution: 'Evolução guiada', kinship: 'Afinidade de tema', special: 'Receita especial',
+      catalystUp: 'Luz de Culumon', catalystDown: 'Regressão',
     },
   },
   en: {
@@ -79,9 +86,16 @@ const STRINGS = {
     achTitle: 'Achievements',
     achUnlocked: 'Achievement unlocked: <b>{name}</b>',
     jogress: 'JOGRESS!',
+    digivolve: 'DIGIVOLVE!',
+    devolve: 'DE-DIGIVOLVE!',
+    noEvolve: '{name} is already at its final form.',
+    noDevolve: "{name} can't de-digivolve any further.",
+    powerUp: '✨ Special power: combined with any Digimon, it makes it digivolve to its next form. Not consumed.',
+    powerDown: '🌑 Special power: combined with any Digimon, it makes it de-digivolve one form. Not consumed.',
     reasons: {
       same: 'Evolution', rebirth: 'Rebirth', jogress: 'Jogress (DNA)',
       evolution: 'Guided evolution', kinship: 'Theme kinship', special: 'Special recipe',
+      catalystUp: "Culumon's Light", catalystDown: 'De-digivolution',
     },
   },
 };

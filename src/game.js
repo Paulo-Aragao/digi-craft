@@ -40,6 +40,8 @@ let discovered = new Map(state.disc.map(([i, a, b], k) => [i, { a, b, k }]));
 const isNew = new Set(); // destaque "Nova" nesta sessão
 
 // ---------- Barra lateral ----------
+const catClass = (i) => { const c = engine.catalystOf(i); return c ? `cat-${c}` : ''; };
+
 function chipHTML(i, extra = '') {
   return `<img src="${img(i)}" alt="" loading="lazy" draggable="false"><span>${esc(D[i].n)}</span>${extra}`;
 }
@@ -53,7 +55,7 @@ function renderItems() {
   else if (sort === 'level') list.sort((a, b) => engine.levelOf[a] - engine.levelOf[b] || D[a].n.localeCompare(D[b].n));
   else list.sort((a, b) => discovered.get(a).k - discovered.get(b).k);
   itemsEl.innerHTML = list.length
-    ? list.map((i) => `<div class="chip" data-id="${i}">${chipHTML(i, isNew.has(i) ? `<span class="new-badge">${t('newBadge')}</span>` : '')}</div>`).join('')
+    ? list.map((i) => `<div class="chip ${catClass(i)}" data-id="${i}">${chipHTML(i, isNew.has(i) ? `<span class="new-badge">${t('newBadge')}</span>` : '')}</div>`).join('')
     : `<div class="empty">${t('nothing')}</div>`;
   renderProgress();
 }
@@ -70,7 +72,7 @@ $('#sort').addEventListener('change', renderItems);
 // ---------- Área de jogo ----------
 function spawn(i, x, y, cls = '') {
   const el = document.createElement('div');
-  el.className = `chip inst ${cls}`;
+  el.className = `chip inst ${catClass(i)} ${cls}`;
   el.dataset.id = i;
   el.innerHTML = chipHTML(i);
   el.style.left = `${x}px`;
@@ -88,7 +90,9 @@ let drag = null;
 
 function beginDrag(el, e, offX, offY) {
   el.classList.add('dragging');
-  el.classList.remove('fresh', 'pop');
+  el.classList.remove('fresh', 'pop', 'slide');
+  // animações de script (tremida, etc.) não podem brigar com o arraste
+  for (const anim of el.getAnimations()) if (!(anim instanceof CSSAnimation)) anim.cancel();
   try { el.setPointerCapture?.(e.pointerId); } catch {} // o dedo pode já ter saído
   drag = { el, offX, offY, moved: false, sx: e.clientX, sy: e.clientY };
 }
@@ -228,22 +232,36 @@ window.addEventListener('pointercancel', () => {
   drag = null;
 });
 
+// Registra o resultado de uma fusão e coloca o novo Digimon na área de jogo
+function produce(res, ia, ib, x, y, cls = '') {
+  const isFirst = !discovered.has(res.id);
+  spawn(res.id, x, y, `pop ${isFirst ? 'fresh' : ''} ${cls}`);
+  state.stats.combos++;
+  if (res.reason === 'jogress') state.stats.jogress++;
+  if (achievements.isUltimate(res.id) && state.stats.combos <= FAST_MEGA) state.stats.fastMega = true;
+  if (isFirst) discover(res.id, ia, ib, res.reason);
+  else save();
+  checkAchievements(true);
+}
+
 function merge(a, b) {
   const ia = Number(a.dataset.id), ib = Number(b.dataset.id);
   const res = engine.combine(ia, ib);
-  if (!res) { shake(a); return; }
+  const catA = engine.catalystOf(ia), catB = engine.catalystOf(ib);
+  if (!res) {
+    shake(a);
+    if (!!catA !== !!catB) {
+      const other = catA ? ib : ia;
+      toast(t((catA || catB) === 'up' ? 'noEvolve' : 'noDevolve', { name: esc(D[other].n) }), 'info');
+    }
+    return;
+  }
+  if (res.reason === 'catalystUp' || res.reason === 'catalystDown') { catalystMerge(a, b, catA ? a : b, res); return; }
   const x = (a.offsetLeft + b.offsetLeft) / 2, y = (a.offsetTop + b.offsetTop) / 2;
   const jog = res.reason === 'jogress';
   const finish = () => {
     a.remove(); b.remove();
-    const isFirst = !discovered.has(res.id);
-    spawn(res.id, x, y, `pop ${isFirst ? 'fresh' : ''} ${jog ? 'jogress-glow' : ''}`);
-    state.stats.combos++;
-    if (jog) state.stats.jogress++;
-    if (achievements.isUltimate(res.id) && state.stats.combos <= FAST_MEGA) state.stats.fastMega = true;
-    if (isFirst) discover(res.id, ia, ib, res.reason);
-    else save();
-    checkAchievements(true);
+    produce(res, ia, ib, x, y, jog ? 'jogress-glow' : '');
   };
   if (!jog) { finish(); return; }
   // Jogress: os dois parceiros giram em direção ao centro antes da fusão
@@ -258,6 +276,43 @@ function merge(a, b) {
     jogressFx(x + a.offsetWidth / 2, y + a.offsetHeight / 2);
     finish();
   }, 420);
+}
+
+// Culumon/Apocalymon não são consumidos: o outro Digimon evolui (ou regride)
+// no lugar, e o catalisador se afasta um pouco para poder ser usado de novo.
+function catalystMerge(a, b, catEl, res) {
+  const target = catEl === a ? b : a;
+  const up = res.reason === 'catalystUp';
+  const tx = target.offsetLeft, ty = target.offsetTop;
+  target.classList.add('loading');
+  if (catEl === a) {
+    catEl.classList.add('slide');
+    catEl.style.left = `${Math.max(8, tx - catEl.offsetWidth - 16)}px`;
+    catEl.style.top = `${ty}px`;
+    setTimeout(() => catEl.classList.remove('slide'), 300);
+  }
+  catEl.classList.add('casting');
+  setTimeout(() => catEl.classList.remove('casting'), 900);
+  catalystFx(tx + target.offsetWidth / 2, ty + target.offsetHeight / 2, up);
+  target.animate(up
+    ? [{ filter: 'brightness(1)' }, { filter: 'brightness(3) saturate(0)', transform: 'scale(1.1)' }]
+    : [{ filter: 'brightness(1)' }, { filter: 'brightness(.2) hue-rotate(250deg)', transform: 'scale(.85)' }],
+  { duration: 450, fill: 'forwards' });
+  setTimeout(() => {
+    target.remove();
+    produce(res, Number(a.dataset.id), Number(b.dataset.id), tx, ty, up ? 'evolve-glow' : 'devolve-glow');
+  }, 450);
+}
+
+function catalystFx(cx, cy, up) {
+  const fx = document.createElement('div');
+  fx.className = `catalyst-fx ${up ? 'up' : 'down'}`;
+  fx.style.left = `${cx}px`;
+  fx.style.top = `${cy}px`;
+  const motes = Array.from({ length: 12 }, (_, k) => `<i class="mote" style="--x:${((k * 37) % 90) - 45}px;--dl:${(k % 6) * 60}ms"></i>`).join('');
+  fx.innerHTML = `<span class="pillar"></span><span class="halo"></span>${motes}<b class="catalyst-text">${t(up ? 'digivolve' : 'devolve')}</b>`;
+  board.appendChild(fx);
+  setTimeout(() => fx.remove(), 1400);
 }
 
 function jogressFx(cx, cy) {
@@ -397,6 +452,7 @@ async function showDetail(i) {
     </div>
     ${found && x.desc ? `<p class="desc">${esc(x.desc)}</p>` : ''}
     ${recipe}
+    ${found && engine.catalystOf(i) ? `<div class="recipe power ${catClass(i)}">${t(engine.catalystOf(i) === 'up' ? 'powerUp' : 'powerDown')}</div>` : ''}
     <div class="detail-actions">
       ${found
         ? `<button class="btn primary" data-act="place">${t('place')}</button>`
