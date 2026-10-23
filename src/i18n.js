@@ -1,7 +1,7 @@
 // Textos da interface em português e inglês. Nomes e descrições dos Digimon vêm da API.
 const STRINGS = {
   pt: {
-    subtitle: 'Infinite Craft com Digimon',
+    subtitle: 'Discovery all Digimon',
     targetLabel: 'Objetivo',
     removeTarget: 'Remover objetivo',
     dex: '📖 Digidex',
