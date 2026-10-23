@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digi Craft</title>
+  <link rel="icon" href="img/1.png">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div id="app">
+    <main id="board">
+      <div id="brand">
+        <span class="logo">Digi<b>Craft</b></span>
+        <span class="sub" data-i18n="subtitle"></span>
+      </div>
+
+      <div id="target" hidden>
+        <img id="target-img" alt="">
+        <div class="target-body">
+          <div class="target-label" data-i18n="targetLabel"></div>
+          <div id="target-name"></div>
+        </div>
+        <button id="target-close" class="icon-btn" data-i18n-title="removeTarget">✕</button>
+      </div>
+
+      <div id="toolbar">
+        <button id="btn-dex" class="btn" data-i18n="dex"></button>
+        <button id="btn-ach" class="btn"><span data-i18n="achievements"></span> <span id="ach-count" class="count"></span></button>
+        <button id="btn-clear" class="btn" data-i18n="clear"></button>
+        <button id="btn-reset" class="btn ghost" data-i18n="reset"></button>
+        <div class="lang" role="group" data-i18n-title="language">
+          <button class="btn small" data-lang="pt">PT</button>
+          <button class="btn small" data-lang="en">EN</button>
+        </div>
+      </div>
+
+      <div id="progress">
+        <div class="bar"><div id="progress-fill"></div></div>
+        <span id="progress-text"></span>
+      </div>
+      <div id="toasts"></div>
+    </main>
+
+    <aside id="side">
+      <div class="side-head">
+        <input id="search" type="search" data-i18n-placeholder="search" autocomplete="off">
+        <select id="sort" data-i18n-title="sortTitle">
+          <option value="time" data-i18n="sortTime"></option>
+          <option value="name" data-i18n="sortName"></option>
+          <option value="level" data-i18n="sortLevel"></option>
+        </select>
+      </div>
+      <div id="items"></div>
+      <div class="side-foot" data-i18n="sideFoot"></div>
+    </aside>
+  </div>
+
+  <div id="dex" class="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2>Digidex <span id="dex-count"></span></h2>
+        <input id="dex-search" type="search" data-i18n-placeholder="dexSearch" autocomplete="off">
+        <select id="dex-filter">
+          <option value="all" data-i18n="all"></option>
+          <option value="found" data-i18n="found"></option>
+          <option value="missing" data-i18n="missing"></option>
+        </select>
+        <select id="dex-level"></select>
+        <button class="icon-btn" data-close>✕</button>
+      </div>
+      <div id="dex-grid"></div>
+    </div>
+  </div>
+
+  <div id="ach" class="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2><span data-i18n="achTitle"></span> <span id="ach-total"></span></h2>
+        <span class="spacer"></span>
+        <button class="icon-btn" data-close>✕</button>
+      </div>
+      <div id="ach-grid"></div>
+    </div>
+  </div>
+
+  <div id="detail" class="modal" hidden>
+    <div class="modal-card detail-card">
+      <button class="icon-btn close-corner" data-close>✕</button>
+      <div id="detail-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="src/game.js"></script>
+</body>
+</html>
