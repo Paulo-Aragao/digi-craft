@@ -19,9 +19,10 @@ const GROUPS = [
   },
   {
     id: 'royal-knights-x', icon: '⚔️',
-    name: { pt: 'Cavaleiros Reais X', en: 'Royal Knights X' },
-    desc: { pt: 'Reúna os 12 Royal Knights X-Antibody (não existe Alphamon X).', en: 'Gather the 12 X-Antibody Royal Knights (there is no Alphamon X).' },
-    req: ['Omegamon (X-Antibody)', 'Dukemon (X-Antibody)', 'Ulforce V-dramon (X-Antibody)', 'Examon (X-Antibody)',
+    name: { pt: '13 Cavaleiros Reais X', en: '13 Royal Knights X' },
+    desc: { pt: 'Reúna os Royal Knights X-Antibody.', en: 'Gather the X-Antibody Royal Knights.' },
+    // Alphamon já nasce com o X-Antibody, então conta nos dois grupos
+    req: ['Alphamon', 'Omegamon (X-Antibody)', 'Dukemon (X-Antibody)', 'Ulforce V-dramon (X-Antibody)', 'Examon (X-Antibody)',
       'Gankoomon (X-Antibody)', 'JESmon (X-Antibody)', 'Sleipmon (X-Antibody)', 'Craniummon (X-Antibody)',
       'Dynasmon (X-Antibody)', 'Lord Knightmon (X-Antibody)', 'Magnamon (X-Antibody)', 'Duftmon (X-Antibody)'],
   },
