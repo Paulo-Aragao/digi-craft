@@ -1,0 +1,2757 @@
+{
+ "source": "https://wikimon.net/Jogress",
+ "recipes": [
+  [
+   "Omegamon",
+   "Paildramon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Garudamon",
+   "Silphymon",
+   "Valkyrimon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Zudomon",
+   "Shakkoumon",
+   "Vikemon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Angemon",
+   "Ankylomon",
+   "Shakkoumon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Aquilamon",
+   "Tailmon",
+   "Silphymon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "XV-mon",
+   "Stingmon",
+   "Paildramon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Herakle Kabuterimon",
+   "Megadramon",
+   "Gran Kuwagamon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Infermon",
+   "Digitamamon",
+   "Diablomon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Mega Seadramon",
+   "Waru Seadramon",
+   "Metal Seadramon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Holy Angemon",
+   "Angewomon",
+   "Holydramon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Holy Angemon",
+   "Jijimon",
+   "Seraphimon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "V-dramon",
+   "Hououmon",
+   "Aero V-dramon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Lilimon",
+   "Vamdemon",
+   "Rosemon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Vamdemon",
+   "Lady Devimon",
+   "Venom Vamdemon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Vademon",
+   "Marin Angemon",
+   "Superstarmon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Etemon",
+   "Andromon",
+   "Metal Etemon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Monzaemon",
+   "Waru Monzaemon",
+   "Pinochimon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "War Greymon",
+   "Metal Garurumon",
+   "Omegamon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Metal Greymon",
+   "Were Garurumon",
+   "Omegamon",
+   "Digimon World: Digital Card Arena"
+  ],
+  [
+   "Imperialdramon(Dragon Mode)",
+   "Gran Kuwagamon",
+   "Imperialdramon(Paladin Mode)",
+   "Digimon Tamers: Brave Tamer"
+  ],
+  [
+   "Dukemon",
+   "Sakuyamon",
+   "Dukemon(Crimson Mode)",
+   "Digimon Tamers: Brave Tamer"
+  ],
+  [
+   "Dukemon",
+   "Saint Galgomon",
+   "Dukemon(Crimson Mode)",
+   "Digimon Tamers: Brave Tamer"
+  ],
+  [
+   "Hookmon",
+   "Greymon",
+   "Agnimon",
+   "Digimon World 3"
+  ],
+  [
+   "Dinohumon",
+   "Kyubimon",
+   "Agnimon",
+   "Digimon World 3"
+  ],
+  [
+   "Gryzmon",
+   "Growmon",
+   "Garummon",
+   "Digimon World 3"
+  ],
+  [
+   "Taomon",
+   "Holy Angemon",
+   "Hououmon",
+   "Digimon World 3"
+  ],
+  [
+   "Megalo Growmon",
+   "Digitamamon",
+   "Saint Galgomon",
+   "Digimon World 3"
+  ],
+  [
+   "Imperialdramon(Paladin Mode)",
+   "Diablomon",
+   "Ancient Greymon",
+   "Digimon World 3"
+  ],
+  [
+   "Dukemon",
+   "Belial Vamdemon",
+   "Beelzebumon(Blast Mode)",
+   "Digimon World 3"
+  ],
+  [
+   "Black War Greymon",
+   "Gran Kuwagamon",
+   "Diablomon",
+   "Digimon World 3"
+  ],
+  [
+   "Imperialdramon(Dragon Mode)",
+   "Seraphimon",
+   "Imperialdramon(Paladin Mode)",
+   "Digimon World 3"
+  ],
+  [
+   "Kuramon",
+   "Kuramon",
+   "Tsumemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Botamon",
+   "Moonmon",
+   "Lopmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tukaimon",
+   "Snow Goburimon",
+   "Ice Devimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shamamon",
+   "Snow Goburimon",
+   "Icemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Piyomon",
+   "DORUmon",
+   "Aquilamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hawkmon",
+   "Floramon",
+   "Igamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gizamon",
+   "Tukaimon",
+   "Wendimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Betamon",
+   "Yuki Agumon",
+   "Airdramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "DORUmon",
+   "Yuki Agumon",
+   "XV-mon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shakomon",
+   "Dot Agumon",
+   "Ebidramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Pawn Chessmon (White)",
+   "Pawn Chessmon (Black)",
+   "Guardromon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakumon",
+   "Ganimon",
+   "Karatuki Numemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Otamamon",
+   "Toy Agumon",
+   "Gawappamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tentomon",
+   "Kuwagamon",
+   "Kuwagamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Falcomon",
+   "Kotemon",
+   "Kougamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Terriermon",
+   "Hagurumon",
+   "Centalmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Terriermon",
+   "Kokuwamon",
+   "Centalmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gabumon",
+   "Lunamon",
+   "Sangloupmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tentomon",
+   "Kunemon",
+   "Thunderballmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Floramon",
+   "Monodramon",
+   "Sunflowmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Plotmon",
+   "Gaomon",
+   "Siesamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dot Falcomon",
+   "Hagurumon",
+   "Starmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Toy Agumon",
+   "Toy Agumon (Black)",
+   "Starmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dokunemon",
+   "Ganimon",
+   "Snimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kudamon (2006 Anime Version)",
+   "Coronamon",
+   "Sorcerimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Guilmon",
+   "Toy Agumon (Black)",
+   "Dark Tyranomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Guilmon",
+   "Impmon",
+   "Dark Lizamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Alraumon",
+   "Mushmon",
+   "Tuchidarumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Solarmon",
+   "Dot Falcomon",
+   "Diatrymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hawkmon",
+   "Kotemon",
+   "Dinohumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hawkmon",
+   "Dot Agumon",
+   "Dinohumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dot Agumon",
+   "Kotemon",
+   "Dinohumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Agumon (Black)",
+   "Pico Devimon",
+   "Devidramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Otamamon",
+   "Gottsumon",
+   "Tortamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Otamamon",
+   "Armadimon",
+   "Tortamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Armadimon",
+   "Gottsumon",
+   "Tortamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gomamon",
+   "Gizamon",
+   "Drimogemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Impmon",
+   "Solarmon",
+   "Nanimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Goburimon",
+   "Hagurumon",
+   "Numemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakumon",
+   "Goburimon",
+   "Hanumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakumon",
+   "Terriermon",
+   "Hanumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Terriermon",
+   "Goburimon",
+   "Hanumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dot Agumon",
+   "Solarmon",
+   "Flare Lizamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mushmon",
+   "Impmon",
+   "Bomber Nanimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shamamon",
+   "Kotemon",
+   "Musyamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kokuwamon",
+   "Toy Agumon",
+   "Mechanorimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gottsumon",
+   "Agumon",
+   "Monochromon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Plotmon",
+   "Penmon",
+   "Yukidarumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Patamon",
+   "Piyomon",
+   "Unimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Monodramon",
+   "Toy Agumon (Black)",
+   "Raptordramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Flymon",
+   "Tortamon",
+   "Atlur Kabuterimon (Blue)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Flymon",
+   "Nise Drimogemon",
+   "Atlur Kabuterimon (Blue)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tortamon",
+   "Nise Drimogemon",
+   "Atlur Kabuterimon (Blue)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Drimogemon",
+   "Knight Chessmon (White)",
+   "Atlur Kabuterimon (Red)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Drimogemon",
+   "Stingmon",
+   "Atlur Kabuterimon (Red)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Knight Chessmon (White)",
+   "Stingmon",
+   "Atlur Kabuterimon (Red)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Flymon",
+   "Wendimon",
+   "Archnemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Zassoumon",
+   "Devimon",
+   "Algomon (Perfect)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sorcerimon",
+   "Wizarmon",
+   "Andiramon (Deva)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Golemon",
+   "Platinum Sukamon",
+   "Insekimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Geo Greymon",
+   "Ankylomon",
+   "Vermillimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Geo Greymon",
+   "Nise Drimogemon",
+   "Vermillimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ankylomon",
+   "Nise Drimogemon",
+   "Vermillimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Centalmon",
+   "Dinohumon",
+   "Vajramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Centalmon",
+   "Minotaurmon",
+   "Vajramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dinohumon",
+   "Minotaurmon",
+   "Vajramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakemon",
+   "Sangloupmon",
+   "Vamdemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Airdramon",
+   "Tyranomon",
+   "Aero V-dramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Raremon",
+   "Tyranomon",
+   "Ex-Tyranomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Geremon",
+   "Sukamon",
+   "Etemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Geremon",
+   "Jungle Mojyamon",
+   "Etemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sukamon",
+   "Jungle Mojyamon",
+   "Etemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Yanmamon",
+   "Sand Yanmamon",
+   "Okuwamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Yanmamon",
+   "Musyamon",
+   "Okuwamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sand Yanmamon",
+   "Musyamon",
+   "Okuwamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gokimon",
+   "Numemon",
+   "Gerbemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gokimon",
+   "Platinum Sukamon",
+   "Gerbemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Numemon",
+   "Platinum Sukamon",
+   "Gerbemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kougamon",
+   "Garurumon",
+   "Karatenmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kougamon",
+   "Aquilamon",
+   "Karatenmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Garurumon",
+   "Aquilamon",
+   "Karatenmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Saberdramon",
+   "Aquilamon",
+   "Garudamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dark Lizamon",
+   "Sand Yanmamon",
+   "Gigadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kabuterimon",
+   "Devimon",
+   "Chimairamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Reppamon",
+   "Snimon",
+   "Kyukimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kougamon",
+   "Kuwagamon",
+   "Giromon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Fugamon",
+   "Minotaurmon",
+   "Grappu Leomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Raptordramon",
+   "Orgemon",
+   "Cyberdramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ice Devimon",
+   "Hanumon",
+   "Shawujinmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ice Devimon",
+   "Sorcerimon",
+   "Shawujinmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hanumon",
+   "Hanumon",
+   "Shawujinmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Igamon",
+   "Kougamon",
+   "Jyureimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Cockatrimon",
+   "Akatorimon",
+   "Sinduramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Igamon",
+   "Revolmon",
+   "Superstarmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Devidramon",
+   "Greymon",
+   "Skull Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Devidramon",
+   "Monochromon",
+   "Skull Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hyougamon",
+   "Shellmon",
+   "Zudomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Orgemon",
+   "Leomon",
+   "Zudomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Octmon",
+   "Gesomon",
+   "Dagomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Unimon",
+   "Siesamon",
+   "Tyilinmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Stingmon",
+   "XV-mon",
+   "Dinobeemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Nanimon",
+   "Mori Shellmon",
+   "Digitamamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tuchidarumon",
+   "Thunderballmon",
+   "Tekkamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Diatrymon",
+   "Woodmon",
+   "Delumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shellmon",
+   "Hookmon",
+   "Tonosama Gekomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Minotaurmon",
+   "Ankylomon",
+   "Triceramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mori Shellmon",
+   "Monochromon",
+   "Triceramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Drimogemon",
+   "Nise Drimogemon",
+   "DORUguremon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Greymon",
+   "Garurumon",
+   "DORUguremon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dinohumon",
+   "Knight Chessmon (White)",
+   "Knightmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dinohumon",
+   "Omekamon",
+   "Knightmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Omekamon",
+   "Knight Chessmon (White)",
+   "Knightmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bomber Nanimon",
+   "Thunderballmon",
+   "Nanomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Birdramon",
+   "Unimon",
+   "Parrotmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gawappamon",
+   "Hyougamon",
+   "Hangyomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Yukidarumon",
+   "Tuchidarumon",
+   "Pandamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Wizarmon",
+   "Hookmon",
+   "Bishop Chessmon (White)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sorcerimon",
+   "Yanmamon",
+   "Piccolomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Snimon",
+   "Clockmon",
+   "Fantomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Numemon",
+   "Geremon",
+   "Brachimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Numemon",
+   "Seadramon",
+   "Brachimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Seadramon",
+   "Geremon",
+   "Brachimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Raptordramon",
+   "Dark Tyranomon",
+   "Black Megalo Growmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Octmon",
+   "Kiwimon",
+   "Blossomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Red Vegimon",
+   "Nanimon",
+   "Vademon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Starmon",
+   "Clockmon",
+   "Holy Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Seadramon",
+   "Coelamon",
+   "Whamon Perfect",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Jungle Mojyamon",
+   "Gokimon",
+   "Volcamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Jungle Mojyamon",
+   "Gekomon",
+   "Volcamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gekomon",
+   "Gokimon",
+   "Volcamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Fugamon",
+   "Evilmon",
+   "Matadrmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gryzmon",
+   "Guardromon",
+   "Mach Gaogamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakemon",
+   "Hookmon",
+   "Mummymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bakemon",
+   "Fugamon",
+   "Mummymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Fugamon",
+   "Hookmon",
+   "Mummymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Vegimon",
+   "Sunflowmon",
+   "Mamemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gesomon",
+   "Evilmon",
+   "Marin Devimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Drimogemon",
+   "Icemon",
+   "Mammon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Garurumon",
+   "Leomon",
+   "Mammon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ebidramon",
+   "Geo Greymon",
+   "Mega Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ebidramon",
+   "Airdramon",
+   "Mega Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Yanmamon",
+   "Flare Lizamon",
+   "Megadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Flare Lizamon",
+   "Dark Lizamon",
+   "Megalo Growmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Raptordramon",
+   "Tankmon",
+   "Metal Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tyranomon",
+   "Tankmon",
+   "Metal Tyranomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tyranomon",
+   "Mechanorimon",
+   "Metal Tyranomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mechanorimon",
+   "Tankmon",
+   "Metal Tyranomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Igamon",
+   "Platinum Sukamon",
+   "Metal Mamemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Starmon",
+   "Yukidarumon",
+   "Monzaemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Siesamon",
+   "Yukidarumon",
+   "Monzaemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Starmon",
+   "Numemon",
+   "Monzaemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Flare Lizamon",
+   "Revolmon",
+   "Rize Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Zassoumon",
+   "Vegimon",
+   "Lilamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angemon",
+   "Devimon",
+   "Lucemon(Falldown Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gaogamon",
+   "Guardromon",
+   "Rapidmon Perfect",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Devidramon",
+   "Cockatrimon",
+   "Lady Devimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Devidramon",
+   "Lekismon",
+   "Lady Devimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Lekismon",
+   "Cockatrimon",
+   "Lady Devimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mojyamon",
+   "Hyougamon",
+   "Were Garurumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sangloupmon",
+   "Jungle Mojyamon",
+   "Were Garurumon (Black)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Garudamon",
+   "Blossomon",
+   "Anubimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Yatagaramon (2006 Anime Version)",
+   "Karatenmon",
+   "Anubimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gerbemon",
+   "Insekimon",
+   "EBEmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gerbemon",
+   "Metal Mamemon",
+   "EBEmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Insekimon",
+   "Metal Mamemon",
+   "EBEmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Vermillimon",
+   "Triceramon",
+   "Imperialdramon(Dragon Mode (Black))",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Allomon",
+   "Rize Greymon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Whamon Perfect",
+   "Were Garurumon",
+   "Vikemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hangyomon",
+   "Shakkoumon",
+   "Vikemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angewomon",
+   "Delumon",
+   "Valkyrimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angewomon",
+   "Owlmon",
+   "Valkyrimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Delumon",
+   "Owlmon",
+   "Valkyrimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sinduramon",
+   "Silphymon",
+   "Valdurmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dagomon",
+   "Pipismon",
+   "Venom Vamdemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mametyramon",
+   "Fladramon",
+   "War Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Taomon",
+   "Silphymon",
+   "Ofanimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Black Megalo Growmon",
+   "Diablomon",
+   "Chaos Dukemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Archnemon",
+   "Volcamon",
+   "Gulfmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Whamon Perfect",
+   "Gigadramon",
+   "Giga Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tylomon",
+   "Kenkimon",
+   "Giga Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mametyramon",
+   "Brachimon",
+   "Cannondramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mametyramon",
+   "Vermillimon",
+   "Cannondramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tonosama Gekomon",
+   "Mamemon",
+   "King Chessmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Crescemon",
+   "Andiramon (Deva)",
+   "Queen Chessmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Crescemon",
+   "Cyberdramon",
+   "Queen Chessmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Andiramon (Deva)",
+   "Cyberdramon",
+   "Queen Chessmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Taomon",
+   "Karatenmon",
+   "Kuzuhamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dinobeemon",
+   "Anomalocarimon",
+   "Gran Kuwagamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "DORUguremon",
+   "Tocanmon",
+   "Griffomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Owlmon",
+   "Kenkimon",
+   "Crossmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Owlmon",
+   "Shakkoumon",
+   "Crossmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kenkimon",
+   "Shakkoumon",
+   "Crossmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Monzaemon",
+   "Prairiemon",
+   "Cherubimon (Virtue)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Holy Angemon",
+   "Cyberdramon",
+   "Goddramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Zudomon",
+   "Lynxmon",
+   "Saber Leomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kyukimon",
+   "Kabukimon",
+   "Sakuyamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kabukimon",
+   "Tekkamon",
+   "Zanbamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kabukimon",
+   "Dinobeemon",
+   "Zanbamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Jyureimon",
+   "Pandamon",
+   "Jijimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Superstarmon",
+   "Andromon",
+   "Justimon(Blitz Arm)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Seahomon",
+   "Big Mamemon",
+   "Jumbo Gamemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Atlur Kabuterimon (Blue)",
+   "Vamdemon",
+   "Skull Mammon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Atlur Kabuterimon (Blue)",
+   "Skull Greymon",
+   "Skull Mammon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Vamdemon",
+   "Skull Greymon",
+   "Skull Mammon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Giromon",
+   "Kyukimon",
+   "Slash Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Giromon",
+   "Piccolomon",
+   "Slash Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Kyukimon",
+   "Piccolomon",
+   "Slash Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Knightmon",
+   "Mammon",
+   "Sleipmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Black Rapidmon",
+   "Rapidmon Perfect",
+   "Seraphimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shakkoumon",
+   "Parrotmon",
+   "Seraphimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Prairiemon",
+   "Big Mamemon",
+   "Saint Galgomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Greymon",
+   "Mametyramon",
+   "Darkdramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Greymon",
+   "Metal Tyranomon",
+   "Darkdramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Tyranomon",
+   "Mametyramon",
+   "Darkdramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Vamdemon",
+   "Lady Devimon",
+   "Demon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Digitamamon",
+   "Monzaemon",
+   "Deathmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Digitamamon",
+   "Pandamon",
+   "Deathmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Monzaemon",
+   "Pandamon",
+   "Deathmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Etemon",
+   "Ponchomon",
+   "Deathmon (Black)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Anomalocarimon",
+   "Pipismon",
+   "Devitamamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ex-Tyranomon",
+   "Tocanmon",
+   "Devitamamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Knightmon",
+   "Atlur Kabuterimon (Red)",
+   "Dukemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Slash Angemon",
+   "Grappu Leomon",
+   "Duftmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Atlur Kabuterimon (Blue)",
+   "Fladramon",
+   "DORUgoramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shawujinmon",
+   "Hangyomon",
+   "Neptunemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Giromon",
+   "Rook Chessmon (White)",
+   "Hi Andromon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Piccolomon",
+   "Vademon",
+   "Babamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Piccolomon",
+   "Lilamon",
+   "Babamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Lilamon",
+   "Vademon",
+   "Babamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Archnemon",
+   "Ex-Tyranomon",
+   "Parasimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Grappu Leomon",
+   "Pandamon",
+   "Bancho Leomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Fantomon",
+   "Archnemon",
+   "Piemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Fantomon",
+   "Infermon",
+   "Piemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Infermon",
+   "Archnemon",
+   "Piemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gerbemon",
+   "Jyureimon",
+   "Pinochimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gerbemon",
+   "Shurimon",
+   "Pinochimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shurimon",
+   "Jyureimon",
+   "Pinochimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Nanomon",
+   "Kongoumon",
+   "Pharaohmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Taomon",
+   "Lynxmon",
+   "Pharaohmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Hangyomon",
+   "Ponchomon",
+   "Pukumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Black Megalo Growmon",
+   "Megadramon",
+   "Black War Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Allomon",
+   "Skull Greymon",
+   "Black War Greymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Rook Chessmon (White)",
+   "Bishop Chessmon (White)",
+   "Black Saint Galgomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mamemon",
+   "Giromon",
+   "Prince Mamemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tylomon",
+   "Aero V-dramon",
+   "Plesiomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tylomon",
+   "Zudomon",
+   "Plesiomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Zudomon",
+   "Aero V-dramon",
+   "Plesiomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Atlur Kabuterimon (Red)",
+   "Okuwamon",
+   "Herakle Kabuterimon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Vamdemon",
+   "Shadramon",
+   "Belial Vamdemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mummymon",
+   "Matadrmon",
+   "Beelzebumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angewomon",
+   "Lilamon",
+   "Holydramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angewomon",
+   "Lilimon",
+   "Holydramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Lilamon",
+   "Lilimon",
+   "Holydramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Sinduramon",
+   "Garudamon",
+   "Hououmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Volcamon",
+   "Tekkamon",
+   "Boltmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Monzaemon",
+   "Superstarmon",
+   "Marin Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Lilimon",
+   "Mega Seadramon",
+   "Marin Angemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Knightmon",
+   "Were Garurumon (Black)",
+   "Minervamon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Tyranomon",
+   "Megadramon",
+   "Mugendramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Tyranomon",
+   "Gigadramon",
+   "Mugendramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Gigadramon",
+   "Megadramon",
+   "Mugendramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Black Megalo Growmon",
+   "Shadramon",
+   "Megidramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Tonosama Gekomon",
+   "Insekimon",
+   "Metal Etemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mammon",
+   "Metal Mamemon",
+   "Metal Garurumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Anomalocarimon",
+   "Marin Devimon",
+   "Metal Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Anomalocarimon",
+   "Metal Tyranomon",
+   "Metal Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Tyranomon",
+   "Marin Devimon",
+   "Metal Seadramon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mamemon",
+   "Insekimon",
+   "Lampmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Blossomon",
+   "Marin Devimon",
+   "Lilithmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Karatenmon",
+   "Shurimon",
+   "Ravmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Lilimon",
+   "Matadrmon",
+   "Rosemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Blossomon",
+   "Lady Devimon",
+   "Lotusmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Rosemon",
+   "Ofanimon",
+   "Rosemon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Rosemon",
+   "Babamon",
+   "Rosemon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ravmon",
+   "Valkyrimon",
+   "Ravmon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Ravmon",
+   "Valdurmon",
+   "Ravmon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Chimairamon",
+   "Mugendramon",
+   "Millenniumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mirage Gaogamon",
+   "Vikemon",
+   "Mirage Gaogamon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Mirage Gaogamon",
+   "Prince Mamemon",
+   "Mirage Gaogamon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Beelzebumon",
+   "Bancho Leomon",
+   "Beelzebumon(Blast Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Dukemon",
+   "Seraphimon",
+   "Dukemon(Crimson Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Superstarmon",
+   "Magnamon",
+   "Susanoomon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Millenniumon",
+   "Gigadramon",
+   "Zeed Millenniumon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shine Greymon",
+   "Darkdramon",
+   "Shine Greymon(Ruin Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shine Greymon",
+   "Dukemon",
+   "Shine Greymon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Shine Greymon",
+   "Imperialdramon(Fighter Mode)",
+   "Shine Greymon(Burst Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Valdurmon",
+   "Susanoomon",
+   "Chronomon Holy Mode",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Darkdramon",
+   "Bancho Leomon",
+   "Chaosmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Darkdramon",
+   "Valdurmon",
+   "Chaosmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Bancho Leomon",
+   "Valdurmon",
+   "Chaosmon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Piemon",
+   "Mugendramon",
+   "Apocalymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Metal Seadramon",
+   "Pinochimon",
+   "Apocalymon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Diablomon",
+   "Infermon",
+   "Armagemon",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Omegamon",
+   "Imperialdramon(Fighter Mode)",
+   "Imperialdramon(Paladin Mode)",
+   "Digimon Story: Sunburst and Moonlight"
+  ],
+  [
+   "Angewomon",
+   "Lady Devimon",
+   "Mastemon",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Kaiser Greymon",
+   "Magna Garurumon",
+   "Susanoomon",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Alphamon",
+   "Ouryumon",
+   "Alphamon(Ouryuken)",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Breakdramon",
+   "Slayerdramon",
+   "Examon",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Black War Greymon",
+   "Metal Garurumon (Black)",
+   "Omegamon Zwart",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Bancho Leomon",
+   "Valdurmon",
+   "Chaosmon(Valdur Arm)",
+   "Digimon Story: Cyber Sleuth & Hacker's Memory"
+  ],
+  [
+   "Apollomon",
+   "Dianamon",
+   "Grace Novamon",
+   "Digimon Story: Time Stranger"
+  ],
+  [
+   "Blitz Greymon",
+   "Cres Garurumon",
+   "Omegamon Alter-S",
+   "Digimon Story: Time Stranger"
+  ],
+  [
+   "Tyranomon",
+   "XV-mon",
+   "Paildramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Tyranomon",
+   "Witchmon",
+   "Paildramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Tyranomon",
+   "Aquilamon",
+   "Paildramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Tyranomon",
+   "Thunderbirmon",
+   "Paildramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "XV-mon",
+   "Tyranomon",
+   "Megadramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "XV-mon",
+   "Angemon",
+   "Megadramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "XV-mon",
+   "Dobermon",
+   "Megadramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "XV-mon",
+   "Darcmon",
+   "Megadramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Tyranomon",
+   "Airdramon",
+   "Megadramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Megalo Growmon",
+   "Metal Greymon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Megalo Growmon",
+   "Holy Angemon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Megalo Growmon",
+   "Were Garurumon (X-Antibody)",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Megalo Growmon",
+   "Silphymon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Metal Greymon",
+   "Paildramon",
+   "Imperialdramon(Dragon Mode)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Metal Greymon",
+   "Megalo Growmon",
+   "Megidramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Metal Greymon",
+   "Bastemon",
+   "Megidramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Metal Greymon",
+   "Grappu Leomon",
+   "Megidramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Metal Greymon",
+   "Lucemon(Falldown Mode)",
+   "Megidramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Megalo Growmon",
+   "Megadramon",
+   "Megidramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Angemon",
+   "Witchmon",
+   "Angewomon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Angemon",
+   "Tyranomon",
+   "Angewomon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Angemon",
+   "Dobermon",
+   "Angewomon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Witchmon",
+   "Angemon",
+   "Andiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Witchmon",
+   "XV-mon",
+   "Andiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Witchmon",
+   "Aquilamon",
+   "Andiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Angemon",
+   "Tailmon",
+   "Andiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Bastemon",
+   "Holy Angemon",
+   "Seraphimon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Bastemon",
+   "Metal Greymon",
+   "Seraphimon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Bastemon",
+   "Were Garurumon (X-Antibody)",
+   "Seraphimon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Holy Angemon",
+   "Angewomon",
+   "Seraphimon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Holy Angemon",
+   "Bastemon",
+   "Cherubimon (Virtue)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Holy Angemon",
+   "Megalo Growmon",
+   "Cherubimon (Virtue)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Holy Angemon",
+   "Grappu Leomon",
+   "Cherubimon (Virtue)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Bastemon",
+   "Andiramon",
+   "Cherubimon (Virtue)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Aquilamon",
+   "Dobermon",
+   "Cerberumon (X-Antibody)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Aquilamon",
+   "Tyranomon",
+   "Cerberumon (X-Antibody)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Aquilamon",
+   "Angemon",
+   "Cerberumon (X-Antibody)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Aquilamon",
+   "Darcmon",
+   "Cerberumon (X-Antibody)",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Dobermon",
+   "Aquilamon",
+   "Mihiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Dobermon",
+   "XV-mon",
+   "Mihiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Dobermon",
+   "Witchmon",
+   "Mihiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Dobermon",
+   "Thunderbirmon",
+   "Mihiramon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Grappu Leomon",
+   "Were Garurumon (X-Antibody)",
+   "Baihumon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Grappu Leomon",
+   "Metal Greymon",
+   "Baihumon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Grappu Leomon",
+   "Holy Angemon",
+   "Baihumon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Grappu Leomon",
+   "Lucemon(Falldown Mode)",
+   "Baihumon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Were Garurumon (X-Antibody)",
+   "Grappu Leomon",
+   "Qinglongmon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Were Garurumon (X-Antibody)",
+   "Megalo Growmon",
+   "Qinglongmon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Were Garurumon (X-Antibody)",
+   "Bastemon",
+   "Qinglongmon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Were Garurumon (X-Antibody)",
+   "Silphymon",
+   "Qinglongmon",
+   "Digimon Pendulum Progress"
+  ],
+  [
+   "Greymon (X-Antibody)",
+   "DORUgamon",
+   "DORUguremon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Raptordramon",
+   "Seadramon (X-Antibody)",
+   "Mega Seadramon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Death-X-DORUgamon",
+   "Seadramon (X-Antibody)",
+   "Mega Seadramon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Grademon",
+   "Mega Seadramon (X-Antibody)",
+   "Alphamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Okuwamon (X-Antibody)",
+   "DORUguremon",
+   "DORUgoramon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Death-X-DORUguremon",
+   "Mega Seadramon (X-Antibody)",
+   "Death-X-DORUgoramon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Mega Seadramon (X-Antibody)",
+   "Grademon",
+   "Giga Seadramon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Mega Seadramon (X-Antibody)",
+   "Death-X-DORUguremon",
+   "Giga Seadramon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Okuwamon (X-Antibody)",
+   "Triceramon (X-Antibody)",
+   "Grandis Kuwagamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Okuwamon (X-Antibody)",
+   "Alphamon",
+   "Grandis Kuwagamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Alphamon",
+   "Dinotigermon",
+   "Omegamon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Alphamon",
+   "Ulforce V-dramon (X-Antibody)",
+   "Omegamon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Death-X-DORUgoramon",
+   "Dinotigermon",
+   "Omegamon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Death-X-DORUgoramon",
+   "Ulforce V-dramon (X-Antibody)",
+   "Omegamon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Ginryumon",
+   "Growmon (X-Antibody)",
+   "Hisyaryumon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Hisyaryumon",
+   "Triceramon (X-Antibody)",
+   "Ouryumon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Mametyramon",
+   "Skull Baluchimon",
+   "Dinotigermon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Mametyramon",
+   "Skull Baluchimon",
+   "Ulforce V-dramon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Triceramon (X-Antibody)",
+   "Okuwamon (X-Antibody)",
+   "Ultimate Brachimon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Triceramon (X-Antibody)",
+   "Alphamon",
+   "Ultimate Brachimon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Dinotigermon",
+   "Alphamon",
+   "Dukemon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Ulforce V-dramon (X-Antibody)",
+   "Alphamon",
+   "Dukemon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Dinotigermon",
+   "Death-X-DORUgoramon",
+   "Dukemon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Ulforce V-dramon (X-Antibody)",
+   "Death-X-DORUgoramon",
+   "Dukemon (X-Antibody)",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Raptordramon",
+   "Waspmon",
+   "Grademon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Ginryumon",
+   "Omekamon",
+   "Hisyaryumon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Cannonbeemon",
+   "Hisyaryumon",
+   "Tiger Vespamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Alphamon",
+   "Okuwamon (X-Antibody)",
+   "Tiger Vespamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Alphamon",
+   "Triceramon (X-Antibody)",
+   "Tiger Vespamon",
+   "Digimon Pendulum X"
+  ],
+  [
+   "Liamon",
+   "Revolmon",
+   "Loader Leomon",
+   "Digimon Accel"
+  ],
+  [
+   "Blade Kuwagamon",
+   "Coelamon",
+   "Metallife Kuwagamon",
+   "Digimon Accel"
+  ],
+  [
+   "Loader Leomon",
+   "Metal Greymon (X-Antibody)",
+   "Bancho Leomon",
+   "Digimon Accel"
+  ],
+  [
+   "Metallife Kuwagamon",
+   "Chimairamon",
+   "Tyrant Kabuterimon",
+   "Digimon Accel"
+  ],
+  [
+   "Bancho Leomon",
+   "Sleipmon",
+   "Chaosmon",
+   "Digimon Accel"
+  ],
+  [
+   "Darkdramon",
+   "Sleipmon",
+   "Chaosmon",
+   "Digimon Accel"
+  ],
+  [
+   "Valdurmon",
+   "Sleipmon",
+   "Chaosmon",
+   "Digimon Accel"
+  ],
+  [
+   "Sealsdramon",
+   "Dobermon",
+   "Tankdramon",
+   "Digimon Accel"
+  ],
+  [
+   "Sangloupmon",
+   "Thunderbirmon",
+   "Matadrmon",
+   "Digimon Accel"
+  ],
+  [
+   "Tankdramon",
+   "Volcamon",
+   "Darkdramon",
+   "Digimon Accel"
+  ],
+  [
+   "Matadrmon",
+   "Angewomon",
+   "Grand Dracumon",
+   "Digimon Accel"
+  ],
+  [
+   "Diatrymon",
+   "Tyranomon",
+   "Yatagaramon",
+   "Digimon Accel"
+  ],
+  [
+   "Tailmon",
+   "Nohemon",
+   "Andiramon",
+   "Digimon Accel"
+  ],
+  [
+   "Yatagaramon",
+   "Triceramon (X-Antibody)",
+   "Valdurmon",
+   "Digimon Accel"
+  ],
+  [
+   "Andiramon",
+   "Mamemon",
+   "Mercurymon",
+   "Digimon Accel"
+  ],
+  [
+   "Reppamon",
+   "Flare Lizamon",
+   "Tyilinmon",
+   "Digimon Accel"
+  ],
+  [
+   "Togemon",
+   "Submarimon",
+   "Cerberumon",
+   "Digimon Accel"
+  ],
+  [
+   "Aegisdramon",
+   "Mugendramon",
+   "Rust Tyranomon",
+   "Digital Monster Ver.20th"
+  ],
+  [
+   "Demon",
+   "Belphemon(Rage Mode)",
+   "Ogudomon",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Raguelmon",
+   "Ofanimon(Falldown Mode)",
+   "Ordinemon",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Piemon",
+   "Vamdemon",
+   "Voltobautamon",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Beelzebumon",
+   "Beel Starmon",
+   "Beelzebumon(Blast Mode)",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Durandamon",
+   "Bryweludramon",
+   "Ragna Lordmon",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Rosemon",
+   "Lotusmon",
+   "Rafflesimon",
+   "Digimon Pendulum Ver.20th"
+  ],
+  [
+   "Darkdramon",
+   "Mugendramon",
+   "Chaosdramon",
+   "the Digital Monster COLOR"
+  ],
+  [
+   "El Doradimon",
+   "Metal Etemon",
+   "Tlalocmon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "El Doradimon",
+   "Saber Leomon",
+   "Tlalocmon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Metal Etemon",
+   "Saber Leomon",
+   "Tlalocmon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Metal Seadramon",
+   "Plesiomon",
+   "Aegisdramon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Marin Angemon",
+   "Hououmon",
+   "Mitamamon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Griffomon",
+   "Hydramon",
+   "Cernumon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Griffomon",
+   "Pinochimon",
+   "Cernumon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Hydramon",
+   "Pinochimon",
+   "Cernumon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Hi Andromon",
+   "Mugendramon",
+   "Chaosdramon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Arcturusmon",
+   "Siriusmon",
+   "Proximamon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Erlangmon",
+   "Nezhamon",
+   "Shakamon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Erlangmon",
+   "Takutoumon",
+   "Shakamon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "Nezhamon",
+   "Takutoumon",
+   "Shakamon",
+   "the Digimon Pendulum COLOR"
+  ],
+  [
+   "V-mon",
+   "Stingmon",
+   "Imperialdramon(Dragon Mode)",
+   "Xros Wars"
+  ],
+  [
+   "Groundramon",
+   "Wingdramon",
+   "Examon",
+   "Card Game"
+  ],
+  [
+   "Orgemon",
+   "Devimon",
+   "Skull Satamon",
+   "V-Tamer 01"
+  ],
+  [
+   "Kuwagamon",
+   "Cockatrimon",
+   "Megadramon",
+   "V-Tamer 01"
+  ],
+  [
+   "Megadramon",
+   "Jyureimon",
+   "Deathmon",
+   "V-Tamer 01"
+  ],
+  [
+   "Monodramon",
+   "Zeed Millenniumon",
+   "Cyberdramon",
+   "Ryo's Story!"
+  ],
+  [
+   "Fenriloogamon",
+   "Kazuchimon",
+   "Fenriloogamon(Takemikazuchi)",
+   "Seekers"
+  ]
+ ],
+ "unmatched": [
+  "Amaterasumon",
+  "Craniummon + Enbarrmon",
+  "Enmamon",
+  "Ex Maquinamon",
+  "Seiten Gokuwmon",
+  "Tengumon",
+  "Titamon + Skull Baluchimon",
+  "Volvemon"
+ ]
+}

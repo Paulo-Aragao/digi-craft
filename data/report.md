@@ -13,25 +13,25 @@
 - Profundidade máxima (gerações de combinação): **11**
 
 ### Primeira descoberta de cada Digimon, por regra
-- Jogress (DNA): 186
-- Evolução: 64
-- Evolução guiada: 596
-- Renascimento: 50
+- Evolução guiada: 728
+- Evolução: 66
+- Renascimento: 48
 - Receita especial: 69
-- Afinidade de tema: 408
-- Regressão: 107
+- Afinidade de tema: 429
+- Jogress (DNA): 25
+- Regressão: 115
 
 ### Digimon por profundidade
 - 0: 8
-- 1: 31
-- 2: 130
-- 3: 346
-- 4: 411
-- 5: 380
-- 6: 126
-- 7: 40
-- 8: 11
-- 9: 2
+- 1: 28
+- 2: 121
+- 3: 326
+- 4: 434
+- 5: 384
+- 6: 134
+- 7: 39
+- 8: 10
+- 9: 1
 - 10: 1
 - 11: 2
 

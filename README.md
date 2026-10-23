@@ -16,6 +16,7 @@ Abra http://localhost:5173.
 
 ```bash
 node scripts/download.mjs   # baixa data/raw/*.json e img/*.png da digi-api
+node scripts/jogress.mjs    # baixa as receitas de Jogress da Wikimon -> data/jogress.json
 node scripts/build.mjs      # monta o grafo, calcula alcançabilidade -> data/game.json, data/report.md
 ```
 
@@ -27,14 +28,17 @@ família de nome e nível. `combine(A, B)` é determinístico e simétrico:
 0. **Catalisadores** — Digimon que "bugam" a evolução (`CATALYSTS` em `scripts/build.mjs`):
    **Culumon** faz qualquer Digimon evoluir para a próxima forma, **Apocalymon** faz regredir uma forma.
    Seguem as linhas canônicas quando existem, e o catalisador não é consumido na fusão.
-1. **Receita especial** — pares gerados pelo build para quem o grafo sozinho não alcança.
-2. **Canônico** — linhas do anime (Agumon + Agumon = Greymon, War Greymon + Metal Garurumon = Omegamon).
-3. **A + A** — evolui para a forma seguinte mais parecida.
-4. **Renascimento** — Child (ou menor) + uma evolução dele volta para a forma de bebê.
-5. **Pontuação por tema** — o resto. Cada candidato ganha pontos por:
+1. **Jogress** — **só** as receitas listadas na [Wikimon](https://wikimon.net/Jogress) (tabelas dos jogos,
+   V-Pets e as citadas no anime/mangá), em `data/jogress.json`. Quando jogos diferentes dão resultados
+   diferentes para o mesmo par, vale o mais citado.
+2. **Receita especial** — pares gerados pelo build para quem o grafo sozinho não alcança.
+3. **Canônico** — linhas do anime (Agumon + Agumon = Greymon, War Greymon + Metal Garurumon = Omegamon).
+4. **A + A** — evolui para a forma seguinte mais parecida.
+5. **Renascimento** — Child (ou menor) + uma evolução dele volta para a forma de bebê.
+6. **Pontuação por tema** — o resto. Cada candidato ganha pontos por:
    - tema em comum com A **e** com B (os ~150 tipos da API agrupados em `THEMES`: anjo, sagrado,
      trevas, dragão, máquina…) — é o que mais pesa;
-   - ser evolução/pré-evolução de A ou B, e mais ainda se evoluir dos dois (Jogress);
+   - ser evolução/pré-evolução de A ou B (mais ainda se evoluir dos dois);
    - família de nome (Black Seraphimon → Seraphimon) quando é o próximo da linha;
    - atributo e tipo exatos em comum.
    

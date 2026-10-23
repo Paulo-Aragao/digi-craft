@@ -71,12 +71,28 @@ for (const line of CANON_LINES) for (let k = 0; k + 1 < line.length; k++) {
 }
 for (const [a, b, c] of CANON_JOGRESS) canon[pk(byName(a), byName(b))] = [byName(c), 'jogress'];
 
+// Jogress: só as receitas da Wikimon (data/jogress.json, gerado por scripts/jogress.mjs).
+// Quando um par tem resultados diferentes entre jogos, vale o mais citado (empate: o primeiro).
+const jogress = {};
+{
+  const file = path.join(ROOT, 'data', 'jogress.json');
+  const votes = new Map();
+  for (const [a, b, c] of fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')).recipes : []) {
+    const k = pk(byName(a), byName(b));
+    if (!votes.has(k)) votes.set(k, new Map());
+    const v = votes.get(k);
+    v.set(c, (v.get(c) || 0) + 1);
+  }
+  for (const [k, v] of votes) jogress[k] = byName([...v].sort((x, y) => y[1] - x[1])[0][0]);
+  console.log(`Jogress da Wikimon: ${votes.size} pares`);
+}
+
 // Digimon que "bugam" a evolução de quem for combinado com eles
 const CATALYSTS = { Culumon: 'up', Apocalymon: 'down' };
 const catalysts = Object.fromEntries(Object.entries(CATALYSTS).map(([name, mode]) => [byName(name), mode]));
 
 const base = BASE_NAMES.map(byName);
-const game = { attrs: attrs.list, types: types.list, fields: fields.list, d, base, canon, catalysts, overrides: {} };
+const game = { attrs: attrs.list, types: types.list, fields: fields.list, d, base, canon, jogress, catalysts, overrides: {} };
 
 // Fecho: aplica combine em todos os pares de descobertos até não surgir nada novo
 function closure(engine) {

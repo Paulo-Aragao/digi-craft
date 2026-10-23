@@ -75,16 +75,8 @@ export function createEngine(game) {
   const levelOf = D.map((d) => (d.l < 0 ? DEFAULT_LEVEL : d.l));
   const knownLevel = D.map((d) => d.l >= 0); // nível desconhecido vale como curinga
 
-  // Jogress: C cujas evoluções anteriores incluem A e B
-  const jogress = new Map();
-  D.forEach((d, c) => {
-    const p = d.p;
-    for (let i = 0; i < p.length; i++) for (let j = i + 1; j < p.length; j++) {
-      const k = pairKey(p[i], p[j]);
-      if (!jogress.has(k)) jogress.set(k, []);
-      jogress.get(k).push(c);
-    }
-  });
+  // Jogress: só as receitas da Wikimon (scripts/jogress.mjs) — par -> resultado
+  const jogress = new Map(Object.entries(game.jogress || {}).map(([k, v]) => [Number(k), v]));
 
   // Baldes para a regra de afinidade: (tipo, atributo, nível), (tipo, nível), (campo, nível), (nível)
   const buckets = new Map();
@@ -202,6 +194,8 @@ export function createEngine(game) {
       const r = mode === 'up' ? evolve(other) : devolve(other);
       return r >= 0 ? { id: r, reason: mode === 'up' ? 'catalystUp' : 'catalystDown' } : null;
     }
+    const jg = jogress.get(pairKey(a, b));
+    if (jg !== undefined) return { id: jg, reason: 'jogress' };
     const ov = overrides.get(pairKey(a, b));
     if (ov !== undefined) return { id: ov, reason: 'special' };
     const cn = canon.get(pairKey(a, b));
@@ -231,7 +225,7 @@ export function createEngine(game) {
     return k >= 0 ? { id: k, reason: 'kinship' } : null;
   }
 
-  // Pontuação única por tema (inclui Jogress): o resultado precisa ter a ver com A *e* com B,
+  // Pontuação única por tema: o resultado precisa ter a ver com A *e* com B,
   // ganha bônus se for evolução/pré-evolução de um deles e nunca cai de nível.
   function themed(a, b) {
     const la = levelOf[a], lb = levelOf[b];
@@ -244,10 +238,6 @@ export function createEngine(game) {
       for (const c of D[x].x) bump(c, 3);
       for (const c of D[x].p) bump(c, 2);
     }
-    // Jogress (evolui de ambos) já soma +6 acima; ganha mais um pouco, mas não
-    // vence sozinho um resultado com muito mais afinidade de tema
-    const jog = jogress.get(pairKey(a, b)) || [];
-    for (const c of jog) bump(c, 2);
     const cands = new Set(link.keys());
     for (const x of [a, b]) {
       const fam = families.get(family[x]);
@@ -276,7 +266,7 @@ export function createEngine(game) {
     };
     const r = best(cands, score, a, b, 4, THEME_MARGIN);
     if (!r) return null;
-    return { id: r.id, reason: jog.includes(r.id) ? 'jogress' : link.has(r.id) ? 'evolution' : 'kinship' };
+    return { id: r.id, reason: link.has(r.id) ? 'evolution' : 'kinship' };
   }
 
   return { combine, pairKey, levelOf, n, sim, catalystOf: (i) => catalysts.get(i), setOverride: (a, b, c) => overrides.set(pairKey(a, b), c), deleteOverride: (a, b) => overrides.delete(pairKey(a, b)) };
