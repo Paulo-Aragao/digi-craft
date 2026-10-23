@@ -27,6 +27,26 @@ const GROUPS = [
       'Dynasmon (X-Antibody)', 'Lord Knightmon (X-Antibody)', 'Magnamon (X-Antibody)', 'Duftmon (X-Antibody)'],
   },
   {
+    id: 'demon-lords', icon: '😈',
+    name: { pt: '7 Lordes Demônios', en: 'Seven Great Demon Lords' },
+    desc: { pt: 'Os 7 Lordes Demônios e Ogudomon, que nasce da união dos pecados.', en: 'The Seven Great Demon Lords and Ogudomon, born from all the sins combined.' },
+    req: [['Lucemon(Falldown Mode)', 'Lucemon(Satan Mode)', 'Lucemon'], 'Demon', 'Leviamon', 'Lilithmon',
+      ['Beelzebumon', 'Beelzebumon(Blast Mode)'], ['Belphemon(Rage Mode)', 'Belphemon(Sleep Mode)'], 'Barbamon', 'Ogudomon'],
+  },
+  {
+    id: 'demon-lords-x', icon: '👿',
+    name: { pt: '7 Lordes Demônios X', en: 'Seven Great Demon Lords X' },
+    desc: { pt: 'Os Lordes Demônios X-Antibody e Ogudomon X.', en: 'The X-Antibody Demon Lords and Ogudomon X.' },
+    req: ['Lucemon (X-Antibody)', 'Demon (X-Antibody)', 'Leviamon (X-Antibody)', 'Lilithmon (X-Antibody)',
+      'Beelzebumon (X-Antibody)', 'Belphemon (X-Antibody)', 'Barbamon (X-Antibody)', 'Ogudomon (X-Antibody)'],
+  },
+  {
+    id: 'musketeers', icon: '🔫',
+    name: { pt: '3 Mosqueteiros', en: 'Three Musketeers' },
+    desc: { pt: 'Os pistoleiros do Velho Oeste: Magna Kidmon, Beel Starmon e Gundramon.', en: 'The Old West gunslingers: Magna Kidmon, Beel Starmon and Gundramon.' },
+    req: ['Magna Kidmon', ['Beel Starmon', 'Beel Starmon (X-Antibody)'], 'Gundramon'],
+  },
+  {
     id: 'angels', icon: '👼',
     name: { pt: '3 Grandes Anjos', en: '3 Great Angels' },
     desc: { pt: 'Seraphimon, Ofanimon e Cherubimon.', en: 'Seraphimon, Ofanimon and Cherubimon.' },

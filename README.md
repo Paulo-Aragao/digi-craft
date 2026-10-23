@@ -50,7 +50,7 @@ Digimon "genéricos" (com dezenas de pré-evoluções, como Numemon) têm priori
 
 ## Conquistas
 
-33 desafios em `src/achievements.js`: grupos (Royal Knights, Olympos XII, Devas…), coleções,
+36 desafios em `src/achievements.js`: grupos (Royal Knights, Lordes Demônios, Olympos XII, Devas…), coleções,
 mecânicas (Jogress, receita especial) e speedrun. O progresso fica no `localStorage`.
 
 ## Alcançabilidade
